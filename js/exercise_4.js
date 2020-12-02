@@ -5,11 +5,11 @@
 var mapId = 'will-breitkreutz.019h7bl7';
 
 // And this is my access token, use yours.
-var accessToken = 'pk.eyJ1Ijoid2lsbC1icmVpdGtyZXV0eiIsImEiOiItMTJGWEF3In0.HEvuRMMVxBVR5-oDYvudxw';
+var accessToken = 'pk.eyJ1IjoibWFoYS1nZW9tYXRpY3MiLCJhIjoiY2tocndpNXJxMG4zbDJwa3puc3B5NWR3OSJ9.EJJzURr1cbeyXuCkehV80w';
 
 // Create the map object with your mapId and token,
 // referencing the DOM element where you want the map to go.
-L.mapbox.accessToken = pk.eyJ1IjoibWFoYS1nZW9tYXRpY3MiLCJhIjoiY2tocndpNXJxMG4zbDJwa3puc3B5NWR3OSJ9.EJJzURr1cbeyXuCkehV80w;
+L.mapbox.accessToken = accessToken;
 var map = L.mapbox.map('map', mapId);
 
 // Set the initial view of the map to the whole US
