@@ -9,7 +9,7 @@ var accessToken = 'pk.eyJ1Ijoid2lsbC1icmVpdGtyZXV0eiIsImEiOiItMTJGWEF3In0.HEvuRM
 
 // Create the map object with your mapId and token,
 // referencing the DOM element where you want the map to go.
-L.mapbox.accessToken = accessToken;
+L.mapbox.accessToken = pk.eyJ1IjoibWFoYS1nZW9tYXRpY3MiLCJhIjoiY2tocndpNXJxMG4zbDJwa3puc3B5NWR3OSJ9.EJJzURr1cbeyXuCkehV80w;
 var map = L.mapbox.map('map', mapId);
 
 // Set the initial view of the map to the whole US
